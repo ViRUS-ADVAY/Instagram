@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Reel Link</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f7f7f7; /* Background color for the page */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .reel-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .reel-thumbnail {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px;
+            height: 80px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        a {
+            margin-top: 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #000; /* Change the color as needed */
+            padding: 10px 20px;
+            background-color: #4caf50; /* Change the background color as needed */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #45a049; /* Change the hover background color as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Instagram Reel Page</h1>
+
+    <div class="reel-container">
+        <img class="reel-thumbnail" src="https://stopify.co/8QZ3G1" alt="Instagram Reel Thumbnail">
+        <div class="play-button">&#9658;</div>
+    </div>
+
+    <a href="https://instagram.com/your_username" target="_blank">View More on Instagram</a>
+</body>
+</html>
